@@ -1,0 +1,713 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/|sg0
+Synopsys Xilinx Technology Mapper, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Id  Slack (ns)  Source Clock  Sink Clock  Exception  Hops    TDMs used per hop**  Total TDM delay (ns)*                   User logic delay (ns)  Path delay (ns)  Requirement (ns)  Start Point                        End Point                          Net Name                  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1   35.604      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.968                  9.432            45.036            accum1[7:0].accum1[3]              FB1.uA.dut_inst.alu1.alu_out[7].D  accum1_aptn_ft[3]         
+2   35.657      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.915                  9.379            45.036            accum1[7:0].accum1[4]              FB1.uA.dut_inst.alu1.alu_out[7].D  accum1_aptn_ft[4]         
+3   35.664      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.908                  9.372            45.036            data1[7:0].data1[0]                FB1.uA.dut_inst.alu1.alu_out[7].D  data1_aptn_ft[0]          
+4   35.697      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.875                  9.339            45.036            data1[7:0].data1[1]                FB1.uA.dut_inst.alu1.alu_out[7].D  data1_aptn_ft[1]          
+5   35.715      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.857                  9.321            45.036            data1[7:0].data1[3]                FB1.uA.dut_inst.alu1.alu_out[7].D  data1_aptn_ft[3]          
+6   35.721      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.851                  9.315            45.036            data1[7:0].data1[2]                FB1.uA.dut_inst.alu1.alu_out[7].D  data1_aptn_ft[2]          
+7   35.764      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.808                  9.272            45.036            accum1[7:0].accum1[5]              FB1.uA.dut_inst.alu1.alu_out[7].D  accum1_aptn_ft[5]         
+8   35.776      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.796                  9.260            45.036            data1[7:0].data1[4]                FB1.uA.dut_inst.alu1.alu_out[7].D  data1_aptn_ft[4]          
+9   35.804      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.768                  9.232            45.036            accum1[7:0].accum1[6]              FB1.uA.dut_inst.alu1.alu_out[7].D  accum1_aptn_ft[6]         
+10  35.844      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.728                  9.192            45.036            accum1[7:0].accum1[7]              FB1.uA.dut_inst.alu1.alu_out[7].D  accum1_aptn_ft[7]         
+11  35.905      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.667                  9.131            45.036            data1[7:0].data1[5]                FB1.uA.dut_inst.alu1.alu_out[7].D  data1_aptn_ft[5]          
+12  35.953      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.619                  9.083            45.036            data1[7:0].data1[6]                FB1.uA.dut_inst.alu1.alu_out[7].D  data1_aptn_ft[6]          
+13  35.970      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.602                  9.066            45.036            data1[7:0].data1[7]                FB1.uA.dut_inst.alu1.alu_out[7].D  data1_aptn_ft[7]          
+14  36.133      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   2.439                  8.903            45.036            opcode1[2:0].opcode1[2]            FB1.uA.dut_inst.alu1.alu_out[7].D  opcode1_aptn_ft[2]        
+15  36.420      clk1:r        System:r    -          -       x1                   (trace:5.146) = 5.146                   2.617                  8.580            45.000            FB1.uA.dut_inst.alu1.alu_out[4].Q  alu_out1[7:0].alu_out1[4]          alu_out1[4]               
+16  36.420      clk1:r        System:r    -          -       x1                   (trace:5.146) = 5.146                   2.617                  8.580            45.000            FB1.uA.dut_inst.alu1.alu_out[1].Q  alu_out1[7:0].alu_out1[1]          alu_out1[1]               
+17  36.420      clk1:r        System:r    -          -       x1                   (trace:5.146) = 5.146                   2.617                  8.580            45.000            FB1.uA.dut_inst.alu1.alu_out[5].Q  alu_out1[7:0].alu_out1[5]          alu_out1[5]               
+18  36.420      clk1:r        System:r    -          -       x1                   (trace:5.146) = 5.146                   2.617                  8.580            45.000            FB1.uA.dut_inst.alu1.alu_out[2].Q  alu_out1[7:0].alu_out1[2]          alu_out1[2]               
+19  36.420      clk1:r        System:r    -          -       x1                   (trace:5.146) = 5.146                   2.617                  8.580            45.000            FB1.uA.dut_inst.alu1.alu_out[6].Q  alu_out1[7:0].alu_out1[6]          alu_out1[6]               
+20  36.420      clk1:r        System:r    -          -       x1                   (trace:5.146) = 5.146                   2.617                  8.580            45.000            FB1.uA.dut_inst.alu1.alu_out[3].Q  alu_out1[7:0].alu_out1[3]          alu_out1[3]               
+21  36.420      clk1:r        System:r    -          -       x1                   (trace:5.146) = 5.146                   2.617                  8.580            45.000            FB1.uA.dut_inst.alu1.alu_out[7].Q  alu_out1[7:0].alu_out1[7]          alu_out1[7]               
+22  36.974      System:r      clk1:r      -          -       x1                   (trace:3.753) = 3.753                   2.991                  8.062            45.036            accum1[7:0].accum1[1]              FB1.uA.dut_inst.alu1.alu_out[7].D  accum1_aptn_ft[1]         
+23  36.979      System:r      clk1:r      -          -       x1                   (trace:3.753) = 3.753                   2.986                  8.057            45.036            accum1[7:0].accum1[0]              FB1.uA.dut_inst.alu1.alu_out[7].D  accum1_aptn_ft[0]         
+24  36.983      System:r      clk1:r      -          -       x1                   (trace:3.753) = 3.753                   2.982                  8.053            45.036            accum1[7:0].accum1[2]              FB1.uA.dut_inst.alu1.alu_out[7].D  accum1_aptn_ft[2]         
+25  37.055      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   1.518                  7.982            45.036            opcode1[2:0].opcode1[1]            FB1.uA.dut_inst.alu1.alu_out[3].D  opcode1_aptn_ft[1]        
+26  37.250      System:r      clk1:r      -          -       x1                   (trace:5.146) = 5.146                   1.322                  7.786            45.036            opcode1[2:0].opcode1[0]            FB1.uA.dut_inst.alu1.alu_out[1].D  opcode1_aptn_ft[0]        
+27  37.813      clk1:r        System:r    -          -       x1                   (trace:3.753) = 3.753                   2.617                  7.187            45.000            FB1.uA.dut_inst.alu1.alu_out[0].Q  alu_out1[7:0].alu_out1[0]          alu_out1[0]               
+28  984.233     System:r      System:r    -          FB1_uA  x1: x1               (trace:5.146) + (trace:5.146) = 10.292  4.157                  15.767           1000.000          accum1[7:0].accum1[6]              zero1.zero1                        accum1_aptn_ft[6]: zero1  
+29  984.237     System:r      System:r    -          FB1_uA  x1: x1               (trace:5.146) + (trace:5.146) = 10.292  2.836                  15.767           1000.000          accum1[7:0].accum1[5]              zero1.zero1                        accum1_aptn_ft[5]: zero1  
+30  984.244     System:r      System:r    -          FB1_uA  x1: x1               (trace:5.146) + (trace:5.146) = 10.292  2.828                  15.767           1000.000          accum1[7:0].accum1[7]              zero1.zero1                        accum1_aptn_ft[7]: zero1  
+31  984.248     System:r      System:r    -          FB1_uA  x1: x1               (trace:5.146) + (trace:5.146) = 10.292  2.824                  15.767           1000.000          accum1[7:0].accum1[4]              zero1.zero1                        accum1_aptn_ft[4]: zero1  
+32  984.428     System:r      System:r    -          FB1_uA  x1: x1               (trace:5.146) + (trace:5.146) = 10.292  2.644                  15.767           1000.000          accum1[7:0].accum1[3]              zero1.zero1                        accum1_aptn_ft[3]: zero1  
+33  985.802     System:r      System:r    -          FB1_uA  x1: x1               (trace:3.753) + (trace:5.146) = 8.899   2.663                  15.767           1000.000          accum1[7:0].accum1[2]              zero1.zero1                        accum1_aptn_ft[2]: zero1  
+34  985.809     System:r      System:r    -          FB1_uA  x1: x1               (trace:3.753) + (trace:5.146) = 8.899   2.656                  15.767           1000.000          accum1[7:0].accum1[1]              zero1.zero1                        accum1_aptn_ft[1]: zero1  
+35  985.813     System:r      System:r    -          FB1_uA  x1: x1               (trace:3.753) + (trace:5.146) = 8.899   2.652                  15.767           1000.000          accum1[7:0].accum1[0]              zero1.zero1                        accum1_aptn_ft[0]: zero1  
+==================================================================================================================================================================================================================================================================================
+
+Path: #1
+Starting point:                     accum1[7:0]/accum1[3]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.432
+Required time                       45.036
+Slack:                              35.604
+
+Instance / Net name                 Pin name              Type           FPGA       Arrival time
+------------------------------------------------------------------------------------------------
+accum1[7:0]                         accum1[3]             Port           top               1.318
+FB1.uB/dut_inst                     accum1_aptn_ft[3]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[3]                   -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[3]      I                     IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                     FDR            FB1_uA            9.432
+================================================================================================
+
+Path: #2
+Starting point:                     accum1[7:0]/accum1[4]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.379
+Required time                       45.036
+Slack:                              35.657
+
+Instance / Net name                 Pin name              Type           FPGA       Arrival time
+------------------------------------------------------------------------------------------------
+accum1[7:0]                         accum1[4]             Port           top               1.318
+FB1.uB/dut_inst                     accum1_aptn_ft[4]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[4]                   -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[4]      I                     IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                     FDR            FB1_uA            9.379
+================================================================================================
+
+Path: #3
+Starting point:                     data1[7:0]/data1[0]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.372
+Required time                       45.036
+Slack:                              35.664
+
+Instance / Net name                 Pin name             Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+data1[7:0]                          data1[0]             Port           top               1.318
+FB1.uB/dut_inst                     data1_aptn_ft[0]     FB1_uB_dut     FB1_uB      -214748.365
+data1_aptn_ft[0]                    -                    Net            -          -           
+FB1.uA/dut_inst.data1_ibuf[0]       I                    IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                    FDR            FB1_uA            9.372
+===============================================================================================
+
+Path: #4
+Starting point:                     data1[7:0]/data1[1]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.339
+Required time                       45.036
+Slack:                              35.697
+
+Instance / Net name                 Pin name             Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+data1[7:0]                          data1[1]             Port           top               1.318
+FB1.uB/dut_inst                     data1_aptn_ft[1]     FB1_uB_dut     FB1_uB      -214748.365
+data1_aptn_ft[1]                    -                    Net            -          -           
+FB1.uA/dut_inst.data1_ibuf[1]       I                    IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                    FDR            FB1_uA            9.339
+===============================================================================================
+
+Path: #5
+Starting point:                     data1[7:0]/data1[3]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.321
+Required time                       45.036
+Slack:                              35.715
+
+Instance / Net name                 Pin name             Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+data1[7:0]                          data1[3]             Port           top               1.318
+FB1.uB/dut_inst                     data1_aptn_ft[3]     FB1_uB_dut     FB1_uB      -214748.365
+data1_aptn_ft[3]                    -                    Net            -          -           
+FB1.uA/dut_inst.data1_ibuf[3]       I                    IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                    FDR            FB1_uA            9.321
+===============================================================================================
+
+Path: #6
+Starting point:                     data1[7:0]/data1[2]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.315
+Required time                       45.036
+Slack:                              35.721
+
+Instance / Net name                 Pin name             Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+data1[7:0]                          data1[2]             Port           top               1.318
+FB1.uB/dut_inst                     data1_aptn_ft[2]     FB1_uB_dut     FB1_uB      -214748.365
+data1_aptn_ft[2]                    -                    Net            -          -           
+FB1.uA/dut_inst.data1_ibuf[2]       I                    IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                    FDR            FB1_uA            9.315
+===============================================================================================
+
+Path: #7
+Starting point:                     accum1[7:0]/accum1[5]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.272
+Required time                       45.036
+Slack:                              35.764
+
+Instance / Net name                 Pin name              Type           FPGA       Arrival time
+------------------------------------------------------------------------------------------------
+accum1[7:0]                         accum1[5]             Port           top               1.318
+FB1.uB/dut_inst                     accum1_aptn_ft[5]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[5]                   -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[5]      I                     IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                     FDR            FB1_uA            9.272
+================================================================================================
+
+Path: #8
+Starting point:                     data1[7:0]/data1[4]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.260
+Required time                       45.036
+Slack:                              35.776
+
+Instance / Net name                 Pin name             Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+data1[7:0]                          data1[4]             Port           top               1.318
+FB1.uB/dut_inst                     data1_aptn_ft[4]     FB1_uB_dut     FB1_uB      -214748.365
+data1_aptn_ft[4]                    -                    Net            -          -           
+FB1.uA/dut_inst.data1_ibuf[4]       I                    IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                    FDR            FB1_uA            9.260
+===============================================================================================
+
+Path: #9
+Starting point:                     accum1[7:0]/accum1[6]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.232
+Required time                       45.036
+Slack:                              35.804
+
+Instance / Net name                 Pin name              Type           FPGA       Arrival time
+------------------------------------------------------------------------------------------------
+accum1[7:0]                         accum1[6]             Port           top               1.318
+FB1.uB/dut_inst                     accum1_aptn_ft[6]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[6]                   -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[6]      I                     IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                     FDR            FB1_uA            9.232
+================================================================================================
+
+Path: #10
+Starting point:                     accum1[7:0]/accum1[7]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.192
+Required time                       45.036
+Slack:                              35.844
+
+Instance / Net name                 Pin name              Type           FPGA       Arrival time
+------------------------------------------------------------------------------------------------
+accum1[7:0]                         accum1[7]             Port           top               1.318
+FB1.uB/dut_inst                     accum1_aptn_ft[7]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[7]                   -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[7]      I                     IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                     FDR            FB1_uA            9.192
+================================================================================================
+
+Path: #11
+Starting point:                     data1[7:0]/data1[5]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.131
+Required time                       45.036
+Slack:                              35.905
+
+Instance / Net name                 Pin name             Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+data1[7:0]                          data1[5]             Port           top               1.318
+FB1.uB/dut_inst                     data1_aptn_ft[5]     FB1_uB_dut     FB1_uB      -214748.365
+data1_aptn_ft[5]                    -                    Net            -          -           
+FB1.uA/dut_inst.data1_ibuf[5]       I                    IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                    FDR            FB1_uA            9.131
+===============================================================================================
+
+Path: #12
+Starting point:                     data1[7:0]/data1[6]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.083
+Required time                       45.036
+Slack:                              35.953
+
+Instance / Net name                 Pin name             Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+data1[7:0]                          data1[6]             Port           top               1.318
+FB1.uB/dut_inst                     data1_aptn_ft[6]     FB1_uB_dut     FB1_uB      -214748.365
+data1_aptn_ft[6]                    -                    Net            -          -           
+FB1.uA/dut_inst.data1_ibuf[6]       I                    IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                    FDR            FB1_uA            9.083
+===============================================================================================
+
+Path: #13
+Starting point:                     data1[7:0]/data1[7]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        9.066
+Required time                       45.036
+Slack:                              35.970
+
+Instance / Net name                 Pin name             Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+data1[7:0]                          data1[7]             Port           top               1.318
+FB1.uB/dut_inst                     data1_aptn_ft[7]     FB1_uB_dut     FB1_uB      -214748.365
+data1_aptn_ft[7]                    -                    Net            -          -           
+FB1.uA/dut_inst.data1_ibuf[7]       I                    IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                    FDR            FB1_uA            9.066
+===============================================================================================
+
+Path: #14
+Starting point:                     opcode1[2:0]/opcode1[2]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        8.903
+Required time                       45.036
+Slack:                              36.133
+
+Instance / Net name                 Pin name               Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------------
+opcode1[2:0]                        opcode1[2]             Port           top               1.318
+FB1.uB/dut_inst                     opcode1_aptn_ft[2]     FB1_uB_dut     FB1_uB      -214748.365
+opcode1_aptn_ft[2]                  -                      Net            -          -           
+FB1.uA/dut_inst.opcode1_ibuf[2]     I                      IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[7]     D                      FDR            FB1_uA            8.903
+=================================================================================================
+
+Path: #15
+Starting point:                     FB1.uA/dut_inst.alu1.alu_out[4]/Q
+Ending point:                       alu_out1[7:0]/alu_out1[4]
+The start point is clocked by       clk1 [rising]
+The end point is clocked by         System [rising]
+Arrival time                        8.580
+Required time                       45.000
+Slack:                              36.420
+
+Instance / Net name                  Pin name        Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------
+FB1.uA/dut_inst.alu1.alu_out[4]      Q               FDR            FB1_uA            0.817
+FB1.uA/dut_inst.alu_out1_obuf[4]     O               OBUF           FB1_uA            2.116
+alu_out1[4]                          -               Net            -          -           
+FB1.uB/dut_inst                      alu_out1[4]     FB1_uB_dut     FB1_uB      -214748.365
+alu_out1[7:0]                        alu_out1[4]     Port           top               8.580
+===========================================================================================
+
+Path: #16
+Starting point:                     FB1.uA/dut_inst.alu1.alu_out[1]/Q
+Ending point:                       alu_out1[7:0]/alu_out1[1]
+The start point is clocked by       clk1 [rising]
+The end point is clocked by         System [rising]
+Arrival time                        8.580
+Required time                       45.000
+Slack:                              36.420
+
+Instance / Net name                  Pin name        Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------
+FB1.uA/dut_inst.alu1.alu_out[1]      Q               FDR            FB1_uA            0.817
+FB1.uA/dut_inst.alu_out1_obuf[1]     O               OBUF           FB1_uA            2.116
+alu_out1[1]                          -               Net            -          -           
+FB1.uB/dut_inst                      alu_out1[1]     FB1_uB_dut     FB1_uB      -214748.365
+alu_out1[7:0]                        alu_out1[1]     Port           top               8.580
+===========================================================================================
+
+Path: #17
+Starting point:                     FB1.uA/dut_inst.alu1.alu_out[5]/Q
+Ending point:                       alu_out1[7:0]/alu_out1[5]
+The start point is clocked by       clk1 [rising]
+The end point is clocked by         System [rising]
+Arrival time                        8.580
+Required time                       45.000
+Slack:                              36.420
+
+Instance / Net name                  Pin name        Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------
+FB1.uA/dut_inst.alu1.alu_out[5]      Q               FDR            FB1_uA            0.817
+FB1.uA/dut_inst.alu_out1_obuf[5]     O               OBUF           FB1_uA            2.116
+alu_out1[5]                          -               Net            -          -           
+FB1.uB/dut_inst                      alu_out1[5]     FB1_uB_dut     FB1_uB      -214748.365
+alu_out1[7:0]                        alu_out1[5]     Port           top               8.580
+===========================================================================================
+
+Path: #18
+Starting point:                     FB1.uA/dut_inst.alu1.alu_out[2]/Q
+Ending point:                       alu_out1[7:0]/alu_out1[2]
+The start point is clocked by       clk1 [rising]
+The end point is clocked by         System [rising]
+Arrival time                        8.580
+Required time                       45.000
+Slack:                              36.420
+
+Instance / Net name                  Pin name        Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------
+FB1.uA/dut_inst.alu1.alu_out[2]      Q               FDR            FB1_uA            0.817
+FB1.uA/dut_inst.alu_out1_obuf[2]     O               OBUF           FB1_uA            2.116
+alu_out1[2]                          -               Net            -          -           
+FB1.uB/dut_inst                      alu_out1[2]     FB1_uB_dut     FB1_uB      -214748.365
+alu_out1[7:0]                        alu_out1[2]     Port           top               8.580
+===========================================================================================
+
+Path: #19
+Starting point:                     FB1.uA/dut_inst.alu1.alu_out[6]/Q
+Ending point:                       alu_out1[7:0]/alu_out1[6]
+The start point is clocked by       clk1 [rising]
+The end point is clocked by         System [rising]
+Arrival time                        8.580
+Required time                       45.000
+Slack:                              36.420
+
+Instance / Net name                  Pin name        Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------
+FB1.uA/dut_inst.alu1.alu_out[6]      Q               FDR            FB1_uA            0.817
+FB1.uA/dut_inst.alu_out1_obuf[6]     O               OBUF           FB1_uA            2.116
+alu_out1[6]                          -               Net            -          -           
+FB1.uB/dut_inst                      alu_out1[6]     FB1_uB_dut     FB1_uB      -214748.365
+alu_out1[7:0]                        alu_out1[6]     Port           top               8.580
+===========================================================================================
+
+Path: #20
+Starting point:                     FB1.uA/dut_inst.alu1.alu_out[3]/Q
+Ending point:                       alu_out1[7:0]/alu_out1[3]
+The start point is clocked by       clk1 [rising]
+The end point is clocked by         System [rising]
+Arrival time                        8.580
+Required time                       45.000
+Slack:                              36.420
+
+Instance / Net name                  Pin name        Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------
+FB1.uA/dut_inst.alu1.alu_out[3]      Q               FDR            FB1_uA            0.817
+FB1.uA/dut_inst.alu_out1_obuf[3]     O               OBUF           FB1_uA            2.116
+alu_out1[3]                          -               Net            -          -           
+FB1.uB/dut_inst                      alu_out1[3]     FB1_uB_dut     FB1_uB      -214748.365
+alu_out1[7:0]                        alu_out1[3]     Port           top               8.580
+===========================================================================================
+
+Path: #21
+Starting point:                     FB1.uA/dut_inst.alu1.alu_out[7]/Q
+Ending point:                       alu_out1[7:0]/alu_out1[7]
+The start point is clocked by       clk1 [rising]
+The end point is clocked by         System [rising]
+Arrival time                        8.580
+Required time                       45.000
+Slack:                              36.420
+
+Instance / Net name                  Pin name        Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------
+FB1.uA/dut_inst.alu1.alu_out[7]      Q               FDR            FB1_uA            0.817
+FB1.uA/dut_inst.alu_out1_obuf[7]     O               OBUF           FB1_uA            2.116
+alu_out1[7]                          -               Net            -          -           
+FB1.uB/dut_inst                      alu_out1[7]     FB1_uB_dut     FB1_uB      -214748.365
+alu_out1[7:0]                        alu_out1[7]     Port           top               8.580
+===========================================================================================
+
+Path: #22
+Starting point:                     accum1[7:0]/accum1[1]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        8.062
+Required time                       45.036
+Slack:                              36.974
+
+Instance / Net name                 Pin name              Type           FPGA       Arrival time
+------------------------------------------------------------------------------------------------
+accum1[7:0]                         accum1[1]             Port           top               1.318
+FB1.uB/dut_inst                     accum1_aptn_ft[1]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[1]                   -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[1]      I                     IBUF           FB1_uA            5.071
+FB1.uA/dut_inst.alu1.alu_out[7]     D                     FDR            FB1_uA            8.062
+================================================================================================
+
+Path: #23
+Starting point:                     accum1[7:0]/accum1[0]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        8.057
+Required time                       45.036
+Slack:                              36.979
+
+Instance / Net name                 Pin name              Type           FPGA       Arrival time
+------------------------------------------------------------------------------------------------
+accum1[7:0]                         accum1[0]             Port           top               1.318
+FB1.uB/dut_inst                     accum1_aptn_ft[0]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[0]                   -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[0]      I                     IBUF           FB1_uA            5.071
+FB1.uA/dut_inst.alu1.alu_out[7]     D                     FDR            FB1_uA            8.057
+================================================================================================
+
+Path: #24
+Starting point:                     accum1[7:0]/accum1[2]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[7]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        8.053
+Required time                       45.036
+Slack:                              36.983
+
+Instance / Net name                 Pin name              Type           FPGA       Arrival time
+------------------------------------------------------------------------------------------------
+accum1[7:0]                         accum1[2]             Port           top               1.318
+FB1.uB/dut_inst                     accum1_aptn_ft[2]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[2]                   -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[2]      I                     IBUF           FB1_uA            5.071
+FB1.uA/dut_inst.alu1.alu_out[7]     D                     FDR            FB1_uA            8.053
+================================================================================================
+
+Path: #25
+Starting point:                     opcode1[2:0]/opcode1[1]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[3]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        7.982
+Required time                       45.036
+Slack:                              37.055
+
+Instance / Net name                 Pin name               Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------------
+opcode1[2:0]                        opcode1[1]             Port           top               1.318
+FB1.uB/dut_inst                     opcode1_aptn_ft[1]     FB1_uB_dut     FB1_uB      -214748.365
+opcode1_aptn_ft[1]                  -                      Net            -          -           
+FB1.uA/dut_inst.opcode1_ibuf[1]     I                      IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[3]     D                      FDR            FB1_uA            7.982
+=================================================================================================
+
+Path: #26
+Starting point:                     opcode1[2:0]/opcode1[0]
+Ending point:                       FB1.uA/dut_inst.alu1.alu_out[1]/D
+The start point is clocked by       System [rising]
+The end point is clocked by         clk1 [rising]
+Arrival time                        7.786
+Required time                       45.036
+Slack:                              37.250
+
+Instance / Net name                 Pin name               Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------------
+opcode1[2:0]                        opcode1[0]             Port           top               1.318
+FB1.uB/dut_inst                     opcode1_aptn_ft[0]     FB1_uB_dut     FB1_uB      -214748.365
+opcode1_aptn_ft[0]                  -                      Net            -          -           
+FB1.uA/dut_inst.opcode1_ibuf[0]     I                      IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.alu1.alu_out[1]     D                      FDR            FB1_uA            7.786
+=================================================================================================
+
+Path: #27
+Starting point:                     FB1.uA/dut_inst.alu1.alu_out[0]/Q
+Ending point:                       alu_out1[7:0]/alu_out1[0]
+The start point is clocked by       clk1 [rising]
+The end point is clocked by         System [rising]
+Arrival time                        7.187
+Required time                       45.000
+Slack:                              37.813
+
+Instance / Net name                  Pin name        Type           FPGA       Arrival time
+-------------------------------------------------------------------------------------------
+FB1.uA/dut_inst.alu1.alu_out[0]      Q               FDR            FB1_uA            0.817
+FB1.uA/dut_inst.alu_out1_obuf[0]     O               OBUF           FB1_uA            2.116
+alu_out1[0]                          -               Net            -          -           
+FB1.uB/dut_inst                      alu_out1[0]     FB1_uB_dut     FB1_uB      -214748.365
+alu_out1[7:0]                        alu_out1[0]     Port           top               7.187
+===========================================================================================
+
+Path: #28
+Starting point:                     accum1[7:0]/accum1[6]
+Ending point:                       zero1/zero1
+The start point is clocked by       System [rising]
+The end point is clocked by         System [rising]
+Arrival time                        15.767
+Required time                       1000.000
+Slack:                              984.233
+
+Instance / Net name                Pin name              Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+accum1[7:0]                        accum1[6]             Port           top               1.318
+FB1.uB/dut_inst                    accum1_aptn_ft[6]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[6]                  -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[6]     I                     IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.zero1_obuf         O                     OBUF           FB1_uA            9.292
+zero1                              -                     Net            -          -           
+FB1.uB/dut_inst                    zero1                 FB1_uB_dut     FB1_uB      -214748.365
+zero1                              zero1                 Port           top              15.767
+===============================================================================================
+
+Path: #29
+Starting point:                     accum1[7:0]/accum1[5]
+Ending point:                       zero1/zero1
+The start point is clocked by       System [rising]
+The end point is clocked by         System [rising]
+Arrival time                        15.767
+Required time                       1000.000
+Slack:                              984.237
+
+Instance / Net name                Pin name              Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+accum1[7:0]                        accum1[5]             Port           top               1.318
+FB1.uB/dut_inst                    accum1_aptn_ft[5]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[5]                  -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[5]     I                     IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.zero1_obuf         O                     OBUF           FB1_uA            9.292
+zero1                              -                     Net            -          -           
+FB1.uB/dut_inst                    zero1                 FB1_uB_dut     FB1_uB      -214748.365
+zero1                              zero1                 Port           top              15.767
+===============================================================================================
+
+Path: #30
+Starting point:                     accum1[7:0]/accum1[7]
+Ending point:                       zero1/zero1
+The start point is clocked by       System [rising]
+The end point is clocked by         System [rising]
+Arrival time                        15.767
+Required time                       1000.000
+Slack:                              984.244
+
+Instance / Net name                Pin name              Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+accum1[7:0]                        accum1[7]             Port           top               1.318
+FB1.uB/dut_inst                    accum1_aptn_ft[7]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[7]                  -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[7]     I                     IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.zero1_obuf         O                     OBUF           FB1_uA            9.292
+zero1                              -                     Net            -          -           
+FB1.uB/dut_inst                    zero1                 FB1_uB_dut     FB1_uB      -214748.365
+zero1                              zero1                 Port           top              15.767
+===============================================================================================
+
+Path: #31
+Starting point:                     accum1[7:0]/accum1[4]
+Ending point:                       zero1/zero1
+The start point is clocked by       System [rising]
+The end point is clocked by         System [rising]
+Arrival time                        15.767
+Required time                       1000.000
+Slack:                              984.248
+
+Instance / Net name                Pin name              Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+accum1[7:0]                        accum1[4]             Port           top               1.318
+FB1.uB/dut_inst                    accum1_aptn_ft[4]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[4]                  -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[4]     I                     IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.zero1_obuf         O                     OBUF           FB1_uA            9.292
+zero1                              -                     Net            -          -           
+FB1.uB/dut_inst                    zero1                 FB1_uB_dut     FB1_uB      -214748.365
+zero1                              zero1                 Port           top              15.767
+===============================================================================================
+
+Path: #32
+Starting point:                     accum1[7:0]/accum1[3]
+Ending point:                       zero1/zero1
+The start point is clocked by       System [rising]
+The end point is clocked by         System [rising]
+Arrival time                        15.767
+Required time                       1000.000
+Slack:                              984.428
+
+Instance / Net name                Pin name              Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+accum1[7:0]                        accum1[3]             Port           top               1.318
+FB1.uB/dut_inst                    accum1_aptn_ft[3]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[3]                  -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[3]     I                     IBUF           FB1_uA            6.464
+FB1.uA/dut_inst.zero1_obuf         O                     OBUF           FB1_uA            9.292
+zero1                              -                     Net            -          -           
+FB1.uB/dut_inst                    zero1                 FB1_uB_dut     FB1_uB      -214748.365
+zero1                              zero1                 Port           top              15.767
+===============================================================================================
+
+Path: #33
+Starting point:                     accum1[7:0]/accum1[2]
+Ending point:                       zero1/zero1
+The start point is clocked by       System [rising]
+The end point is clocked by         System [rising]
+Arrival time                        15.767
+Required time                       1000.000
+Slack:                              985.802
+
+Instance / Net name                Pin name              Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+accum1[7:0]                        accum1[2]             Port           top               1.318
+FB1.uB/dut_inst                    accum1_aptn_ft[2]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[2]                  -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[2]     I                     IBUF           FB1_uA            5.071
+FB1.uA/dut_inst.zero1_obuf         O                     OBUF           FB1_uA            9.292
+zero1                              -                     Net            -          -           
+FB1.uB/dut_inst                    zero1                 FB1_uB_dut     FB1_uB      -214748.365
+zero1                              zero1                 Port           top              15.767
+===============================================================================================
+
+Path: #34
+Starting point:                     accum1[7:0]/accum1[1]
+Ending point:                       zero1/zero1
+The start point is clocked by       System [rising]
+The end point is clocked by         System [rising]
+Arrival time                        15.767
+Required time                       1000.000
+Slack:                              985.809
+
+Instance / Net name                Pin name              Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+accum1[7:0]                        accum1[1]             Port           top               1.318
+FB1.uB/dut_inst                    accum1_aptn_ft[1]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[1]                  -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[1]     I                     IBUF           FB1_uA            5.071
+FB1.uA/dut_inst.zero1_obuf         O                     OBUF           FB1_uA            9.292
+zero1                              -                     Net            -          -           
+FB1.uB/dut_inst                    zero1                 FB1_uB_dut     FB1_uB      -214748.365
+zero1                              zero1                 Port           top              15.767
+===============================================================================================
+
+Path: #35
+Starting point:                     accum1[7:0]/accum1[0]
+Ending point:                       zero1/zero1
+The start point is clocked by       System [rising]
+The end point is clocked by         System [rising]
+Arrival time                        15.767
+Required time                       1000.000
+Slack:                              985.813
+
+Instance / Net name                Pin name              Type           FPGA       Arrival time
+-----------------------------------------------------------------------------------------------
+accum1[7:0]                        accum1[0]             Port           top               1.318
+FB1.uB/dut_inst                    accum1_aptn_ft[0]     FB1_uB_dut     FB1_uB      -214748.365
+accum1_aptn_ft[0]                  -                     Net            -          -           
+FB1.uA/dut_inst.accum1_ibuf[0]     I                     IBUF           FB1_uA            5.071
+FB1.uA/dut_inst.zero1_obuf         O                     OBUF           FB1_uA            9.292
+zero1                              -                     Net            -          -           
+FB1.uB/dut_inst                    zero1                 FB1_uB_dut     FB1_uB      -214748.365
+zero1                              zero1                 Port           top              15.767
+===============================================================================================
+

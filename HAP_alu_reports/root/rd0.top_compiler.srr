@@ -1,0 +1,209 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Database state : /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/|root.rd0
+Synopsys HDL Compiler, Version comp202012pcp4, Build 193R, Built Apr  8 2022 21:30:14, @4216327
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Database state : /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/|root.rd0
+Synopsys Verilog Compiler, Version comp202012pcp4, Build 193R, Built Apr  8 2022 21:30:14, @4216327
+
+@N|Running in 64-bit mode
+@N|Running compiler in Fast Synthesis mode
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library work)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library work)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/netlist/umr3_him_async_fifo_2048x258_xcvu440_stub.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80_xcvu440_mgb1_stub.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80d_xcvu440_mgb1_stub.v" (library snps_haps)
+@N: CG1222 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80_xcvu440_mgb1_stub.v":17:7:17:43|Previous declaration of module umr3_pcie_gen2_x4_haps80_xcvu440_mgb1 found
+@W: CG275 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80d_xcvu440_mgb1_stub.v":17:7:17:43|Duplicate module name umr3_pcie_gen2_x4_haps80_xcvu440_mgb1 (using last description encountered)!
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v" (library snps_haps)
+@N: CG334 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v":925:15:925:27|Read directive translate_off.
+@N: CG333 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v":930:15:930:26|Read directive translate_on.
+@W: CG966 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v":25410:5:25410:5|Newline found within a string in a comment - should preferably be preceded with a '\'
+@W: CG966 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v":25410:5:25410:5|Newline found within a string in a comment - should preferably be preceded with a '\'
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/clocks/gsv_trigger_hypermods.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/m110/m110063559/lab/Lab1_PCflow/src/top.v" (library work)
+@I::"/home/m110/m110063559/lab/Lab1_PCflow/src/alu.v" (library work)
+@N|stack limit increased to max
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 207MB peak: 207MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 19 00:17:32 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Database state : /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/|root.rd0
+Synopsys Synopsys Netlist Linker, Version comp202012pcp4, Build 193R, Built Apr  8 2022 21:30:14, @4216327
+
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 19 00:17:32 2023
+
+###########################################################]
+
+Finished Containment srs generation. (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 56MB peak: 56MB)
+
+Divided design in to 1 groups
+@L:"/home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/rtl_diagnostics/root.rd0/synwork//distcomp/distcomp0/distcomp0.log" "Log file for distribution node work.top.verilog "
+Compiling work_top_verilog as a separate process
+Compilation of node work.top finished successfully.Real start time 0h:00m:01s, Real end time = 0h:00m:02s, Total real run time = 0h:00m:01s
+################### distcomp0.log ############################
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Database state : /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/|root.rd0
+Synopsys Verilog Compiler, Version comp202012pcp4, Build 193R, Built Apr  8 2022 21:30:14, @4216327
+
+@N|Running in 64-bit mode
+@N|Running compiler in Diagnostic mode
+@N|Running compiler in Fast Synthesis mode
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library work)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library work)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/netlist/umr3_him_async_fifo_2048x258_xcvu440_stub.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80_xcvu440_mgb1_stub.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80d_xcvu440_mgb1_stub.v" (library snps_haps)
+@N: CG1222 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80_xcvu440_mgb1_stub.v":17:7:17:43|Previous declaration of module umr3_pcie_gen2_x4_haps80_xcvu440_mgb1 found
+@W: CG275 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80d_xcvu440_mgb1_stub.v":17:7:17:43|Duplicate module name umr3_pcie_gen2_x4_haps80_xcvu440_mgb1 (using last description encountered)!
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v" (library snps_haps)
+@N: CG334 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v":925:15:925:27|Read directive translate_off.
+@N: CG333 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v":930:15:930:26|Read directive translate_on.
+@W: CS138 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v":16493:3:16327:8|Macro definition for UMR3___GUARD__DW_AXI_GM_ALL_INCLUDES__VH__ not found. Cannot undefine.
+@W: CS138 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v":21144:3:20944:8|Macro definition for UMR3___GUARD__DW_AXI_GS_ALL_INCLUDES__VH__ not found. Cannot undefine.
+@W: CG966 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v":25410:5:25410:5|Newline found within a string in a comment - should preferably be preceded with a '\'
+@W: CG966 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/umrbus3/umrbus3.v":25410:5:25410:5|Newline found within a string in a comment - should preferably be preceded with a '\'
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/clocks/gsv_trigger_hypermods.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/m110/m110063559/lab/Lab1_PCflow/src/top.v" (library work)
+@I::"/home/m110/m110063559/lab/Lab1_PCflow/src/alu.v" (library work)
+@N|stack limit increased to max
+Verilog syntax check successful!
+@N:: Applying property .distcompmodetop with value 1 on module top in library work
+@N:: Applying property .distcompnoprune with value 1 on module top in library work
+@N:: Applying property .noprune with value 1 on module top in library work
+@N:: Applying property .distcompnoprune with value 1 on module alu in library work
+@N:: Applying property .noprune with value 1 on module alu in library work
+Selecting top level module top
+@N: CG364 :"/home/m110/m110063559/lab/Lab1_PCflow/src/alu.v":1:7:1:9|Synthesizing module alu in library work.
+Running optimization stage 1 on alu .......
+Finished optimization stage 1 on alu (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CG364 :"/home/m110/m110063559/lab/Lab1_PCflow/src/top.v":1:7:1:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@END
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 19 00:17:33 2023
+
+###########################################################]
+
+Distributed Compiler Report
+***************************
+
+DP Name              Status      Start time     End Time       Total Real Time     Log File                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+work.top.verilog     Success     0h:00m:01s     0h:00m:02s     0h:00m:01s          /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/rtl_diagnostics/root.rd0/synwork//distcomp/distcomp0/distcomp0.log
+=======================================================================================================================================================================================================
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/rtl_diagnostics/root.rd0/synwork/top_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 65MB peak: 65MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 19 00:17:35 2023
+
+###########################################################]

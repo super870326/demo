@@ -1,0 +1,131 @@
+# Wed Apr 19 00:18:02 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/|c0
+Synopsys Xilinx Technology Mapper, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 237MB peak: 237MB)
+
+Reading constraint file: /home/m110/m110063559/lab/Lab1_PCflow/top_ucdb/cclock_map.tcl
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+@W: FX1020 |A simulation mismatch is possible. Ignoring vendor library default initial value on registers, because the default value is not set. To enable vendor library default initial values, add the command "set_option -support_implicit_init_netlist 1" to the project file.
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Target platform is HAPS-100, running ProtoCompiler.
+
+@N: MF990 |On Demand Uniquification flow enabled 
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+NConnInternalConnection caching is on
+
+Starting functional verification of DisTri Cleanupfolded (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Started DisTri Cleanup folded (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Starting disabled tri cleanup (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Finished disabled tri cleanup (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Finished DisTri Cleanup folded (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Finished functional verification of DisTri Cleanup (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Starting bidir resolution (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Finished bidir resolution (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Start optimization across hierarchy (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Finished optimization across hierarchy (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Starting functional verification of DisTri Cleanupfolded (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Started DisTri Cleanup folded (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Starting disabled tri cleanup (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Finished disabled tri cleanup (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Finished DisTri Cleanup folded (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Finished functional verification of DisTri Cleanup (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+No subsystems found. Skipping subsystem constant report.
+
+Start clock netlist generation (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+ODU CTE is ON (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+ODU CTE: doing uniquification (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+ODU CTE: done uniquification (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Deleting unused ports (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Deleted 3 (7) unused ports across 1 views (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+ODU CTE: removed non-clocks (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+
+Finished clock netlist generation (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+Finished Prepass Opt Phase.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 781MB peak: 781MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:10s cputime
+# Wed Apr 19 00:18:13 2023
+
+###########################################################]

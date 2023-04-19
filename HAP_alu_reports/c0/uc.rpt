@@ -1,0 +1,179 @@
+
+Please use 'source' command instead of run this csh directly
+USAGE:
+  source /home/m110/m110063559/lab/Lab1_PCflow/vcs_dut.csh
+  source /home/m110/m110063559/lab/Lab1_PCflow/vcs_dut.csh [version]
+  source /home/m110/m110063559/lab/Lab1_PCflow/vcs_dut.csh [@ver | -help]
+
+
+Please use 'source' command instead of run this csh directly
+USAGE:
+  source /home/m110/m110063559/lab/Lab1_PCflow/vcs_dut.csh
+  source /home/m110/m110063559/lab/Lab1_PCflow/vcs_dut.csh [version]
+  source /home/m110/m110063559/lab/Lab1_PCflow/vcs_dut.csh [@ver | -help]
+
+Platform = amd64
+
+Warning-[UNKWN_IGOPTS] Unknown option(s) ignored
+  Unknown option(s) '-top ' passed to 'vlogan' command line is(are) ignored.
+  Please make sure that there are no typos in the option(s) passed, or the 
+  options are only applicable to VCS at elaboration step. Also check 'vlogan 
+  -help' for supported options. 
+
+                         Chronologic VCS (TM)
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Wed Apr 19 00:17:46 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file './src/top.v'
+Parsing design file './src/alu.v'
+CPU time: .204 seconds to compile
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug_pp' will be deprecated in a future release.  Please use 
+  '-debug_acc+pp+dmptf -debug_region+cell+encrypt' instead.
+
+Doing common elaboration 
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug_pp' will be deprecated in a future release.  Please use 
+  '-debug_acc+pp+dmptf -debug_region+cell+encrypt' instead.
+
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Wed Apr 19 00:17:48 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+UNIZFE: Got HW top: top
+Top Level Modules:
+       top
+No TimeScale specified
+Info: Invoking Simon...
+[UFE_FLOW]: RhinoDB Rtl Population based on design traversal started
+[UFE_FLOW]: Trying to load NameDB library without path: libNameDB.so
+Info: Simon VCS Start
+                                SIMON
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Wed Apr 19 00:17:49 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Note-[SM_NATIVE_FORCE_ON] Native force is ON
+  Simon native force/release handling is ON
+
+
+Note-[SM_PARALLEL_RUN] Parallel run
+  Forked '2' child processes with process ids '30264 30265'
+  to perform synthesis of total '2' modules in parallel.
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: alu Parameterized Name: alu
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: top Parameterized Name: top
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'top' has 1 instances
+  
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '0' with process id '30264'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.01 sec
+  SIMON Child Current Memory  : 371 MB
+  SIMON Child Peak Memory     : 371 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Wed Apr 19 00:17:49 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '1' with process id '30265'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.01 sec
+  SIMON Child Wall-Clock Time : 0.02 sec
+  SIMON Child Current Memory  : 371 MB
+  SIMON Child Peak Memory     : 371 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Wed Apr 19 00:17:49 2023
+  .
+
+
+Note-[SM_PF] Processing finished
+  Processing of all modules finished
+
+
+Note-[SM_PARALLEL_RUN] Parallel run
+  Forked '2' child processes with process ids '30267 30268'
+  to perform post-processing optimizations of total '2' modules in parallel.
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: alu
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: top
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '1' with process id '30268'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.01 sec
+  SIMON Child Current Memory  : 371 MB
+  SIMON Child Peak Memory     : 371 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Wed Apr 19 00:17:49 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '0' with process id '30267'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.01 sec
+  SIMON Child Current Memory  : 371 MB
+  SIMON Child Peak Memory     : 371 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Wed Apr 19 00:17:49 2023
+  .
+
+
+Note-[SM_POF] Processing finished
+  Post-processing optimizations of all modules finished
+
+=======================================================
+VCS pre-synth CPU Time        : 0.42 sec
+VCS pre-synth Wall-Clock Time : 1.00 sec
+VCS pre-synth Current Memory  : 369 MB
+SIMON Master CPU Time         : 0.04 sec
+SIMON Total  CPU Time         : 0.11 sec
+SIMON Master Wall-Clock Time  : 0.13 sec
+SIMON Master Current Memory   : 371 MB
+SIMON Master Peak Memory      : 372 MB
+SIMON CGroup Memory           : 387 MB
+SIMON Distribution            : 0.00,0.00,0.00,0.00 sec
+=======================================================
+Info: Simon VCS Finished
+Info: Simon call complete 
+Info: Exiting after Simon Analysis 
+CPU time: .635 seconds to compile

@@ -1,0 +1,54 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Database state : /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/|sr0
+Synopsys Partitioner, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+##############################################################################
+########################## TDM QUALIFIED NETS ##########################
+##############################################################################
+TDM Qualification type: all
+Qualified Nets      Source FPGA  Sink FPGA(s)  Sink Instance                           Driver Instance                         Source Clock  Dest Clock  Clock Group      Slack    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+alu_out1[0]         FB1.uA       FB1.uB        alu_out1[7:0].alu_out1[0]               FB1.uA.dut_inst.alu1.alu_out[7:0].Q[0]  clk1:r        System:r    d1               42.8843  
+alu_out1[1]         FB1.uA       FB1.uB        alu_out1[7:0].alu_out1[1]               FB1.uA.dut_inst.alu1.alu_out[7:0].Q[1]  clk1:r        System:r    d1               42.8843  
+alu_out1[2]         FB1.uA       FB1.uB        alu_out1[7:0].alu_out1[2]               FB1.uA.dut_inst.alu1.alu_out[7:0].Q[2]  clk1:r        System:r    d1               42.8843  
+alu_out1[3]         FB1.uA       FB1.uB        alu_out1[7:0].alu_out1[3]               FB1.uA.dut_inst.alu1.alu_out[7:0].Q[3]  clk1:r        System:r    d1               42.8843  
+alu_out1[4]         FB1.uA       FB1.uB        alu_out1[7:0].alu_out1[4]               FB1.uA.dut_inst.alu1.alu_out[7:0].Q[4]  clk1:r        System:r    d1               42.8843  
+alu_out1[5]         FB1.uA       FB1.uB        alu_out1[7:0].alu_out1[5]               FB1.uA.dut_inst.alu1.alu_out[7:0].Q[5]  clk1:r        System:r    d1               42.8843  
+alu_out1[6]         FB1.uA       FB1.uB        alu_out1[7:0].alu_out1[6]               FB1.uA.dut_inst.alu1.alu_out[7:0].Q[6]  clk1:r        System:r    d1               42.8843  
+alu_out1[7]         FB1.uA       FB1.uB        alu_out1[7:0].alu_out1[7]               FB1.uA.dut_inst.alu1.alu_out[7:0].Q[7]  clk1:r        System:r    d1               42.8843  
+zero1               FB1.uA       FB1.uB        zero1.zero1                             accum1[7:0].accum1[4]                   System:r      System:r    system_clkgroup  997.161  
+accum1_aptn_ft[0]   FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  accum1[7:0].accum1[0]                   System:r      System:r    system_clkgroup  42.0675  
+accum1_aptn_ft[3]   FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[3]  accum1[7:0].accum1[3]                   System:r      System:r    system_clkgroup  42.068   
+accum1_aptn_ft[5]   FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[5]  accum1[7:0].accum1[5]                   System:r      System:r    system_clkgroup  42.2278  
+accum1_aptn_ft[6]   FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[6]  accum1[7:0].accum1[6]                   System:r      System:r    system_clkgroup  42.2676  
+accum1_aptn_ft[7]   FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[7]  accum1[7:0].accum1[7]                   System:r      System:r    system_clkgroup  42.3078  
+data1_aptn_ft[1]    FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  data1[7:0].data1[1]                     System:r      clk1:r      system_clkgroup  42.1432  
+data1_aptn_ft[0]    FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  data1[7:0].data1[0]                     System:r      clk1:r      system_clkgroup  42.1104  
+opcode1_aptn_ft[0]  FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  opcode1[2:0].opcode1[0]                 System:r      clk1:r      system_clkgroup  43.7136  
+accum1_aptn_ft[1]   FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[1]  accum1[7:0].accum1[1]                   System:r      System:r    system_clkgroup  42.0624  
+opcode1_aptn_ft[2]  FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  opcode1[2:0].opcode1[2]                 System:r      clk1:r      system_clkgroup  42.5966  
+data1_aptn_ft[3]    FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  data1[7:0].data1[3]                     System:r      clk1:r      system_clkgroup  42.1792  
+accum1_aptn_ft[2]   FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[2]  accum1[7:0].accum1[2]                   System:r      System:r    system_clkgroup  42.0713  
+accum1_aptn_ft[4]   FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[4]  accum1[7:0].accum1[4]                   System:r      System:r    system_clkgroup  42.1211  
+data1_aptn_ft[2]    FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  data1[7:0].data1[2]                     System:r      clk1:r      system_clkgroup  42.1672  
+data1_aptn_ft[6]    FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  data1[7:0].data1[6]                     System:r      clk1:r      system_clkgroup  42.4167  
+data1_aptn_ft[4]    FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  data1[7:0].data1[4]                     System:r      clk1:r      system_clkgroup  42.2398  
+data1_aptn_ft[5]    FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  data1[7:0].data1[5]                     System:r      clk1:r      system_clkgroup  42.3693  
+opcode1_aptn_ft[1]  FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  opcode1[2:0].opcode1[1]                 System:r      clk1:r      system_clkgroup  43.5185  
+data1_aptn_ft[7]    FB1.uB       FB1.uA        FB1.uA.dut_inst.alu1.alu_out[7:0].D[0]  data1[7:0].data1[7]                     System:r      clk1:r      system_clkgroup  42.4341  
+=================================================================================================================================================================================

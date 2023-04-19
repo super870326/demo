@@ -1,0 +1,114 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/|pp0
+
+# Written on Wed Apr 19 00:19:12 2023
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      "/home/m110/m110063559/lab/Lab1_PCflow/top_ucdb/cclock_map.tcl"
+                         "/home/m110/m110063559/lab/Lab1_PCflow/design.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 5 issues in 5 out of 7 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+System       System     |     1000.000         |     No paths         |     No paths         |     No paths                         
+System       clk1       |     45.000           |     No paths         |     No paths         |     No paths                         
+clk1         System     |     45.000           |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:accum1[0]
+p:accum1[1]
+p:accum1[2]
+p:accum1[3]
+p:accum1[4]
+p:accum1[5]
+p:accum1[6]
+p:accum1[7]
+p:alu_out1[0]
+p:alu_out1[1]
+p:alu_out1[2]
+p:alu_out1[3]
+p:alu_out1[4]
+p:alu_out1[5]
+p:alu_out1[6]
+p:alu_out1[7]
+p:data1[0]
+p:data1[1]
+p:data1[2]
+p:data1[3]
+p:data1[4]
+p:data1[5]
+p:data1[6]
+p:data1[7]
+p:opcode1[0]
+p:opcode1[1]
+p:opcode1[2]
+p:reset
+p:zero1
+
+
+Inapplicable constraints
+************************
+
+create_clock -name clk2 p:clk2 -period 50
+	@E:MT548:"/home/m110/m110063559/lab/Lab1_PCflow/design.fdc":4:0:4:0|Source for clock clk2 not found in netlist.
+set_input_delay -max 6.00 -clock c:clk1 -add_delay p:resetn
+	@E:MF896:"/home/m110/m110063559/lab/Lab1_PCflow/design.fdc":14:0:14:0|Object "p:resetn" does not exist
+set_output_delay -max 6.00 -clock c:clk1 -add_delay p:led_out1
+	@E:MF896:"/home/m110/m110063559/lab/Lab1_PCflow/design.fdc":16:0:16:0|Object "p:led_out1" does not exist
+set_output_delay -max 6.00 -clock c:clk2 -add_delay p:led_out2
+	@E:MF1020:"/home/m110/m110063559/lab/Lab1_PCflow/design.fdc":17:0:17:0|clock "clk2" does not exist
+
+Applicable constraints with issues
+**********************************
+
+set_clock_groups -derive -asynchronous -name d2 -group c:clk2
+	@W:MF896:"/home/m110/m110063559/lab/Lab1_PCflow/design.fdc":7:0:7:0|Clock "c:clk2" does not exist
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

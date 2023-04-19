@@ -1,0 +1,12 @@
+@N:: Applying property .distcompmodetop with value 1 on module top in library work
+@N:: Applying property .distcompnoprune with value 1 on module top in library work
+@N:: Applying property .noprune with value 1 on module top in library work
+@N:: Applying property .distcompnoprune with value 1 on module alu in library work
+@N:: Applying property .noprune with value 1 on module alu in library work
+Selecting top level module top
+@N: CG364 :"/home/m110/m110063559/lab/Lab1_PCflow/src/alu.v":1:7:1:9|Synthesizing module alu in library work.
+Running optimization stage 1 on alu .......
+Finished optimization stage 1 on alu (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CG364 :"/home/m110/m110063559/lab/Lab1_PCflow/src/top.v":1:7:1:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)

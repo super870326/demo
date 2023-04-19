@@ -1,0 +1,130 @@
+# Wed Apr 19 00:19:01 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/|pp0
+Synopsys Xilinx Technology Pre-mapping, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 237MB peak: 237MB)
+
+See report top_scck.rpt@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+@W: FX1020 |A simulation mismatch is possible. Ignoring vendor library default initial value on registers, because the default value is not set. To enable vendor library default initial values, add the command "set_option -support_implicit_init_netlist 1" to the project file.
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+Pre-partition Prep and Area Estimation steps are being run in parallel.
+Target platform is HAPS-100, running ProtoCompiler.
+
+Fast pre-partition flow is enabled
+
+Target platform is HAPS-100, running ProtoCompiler.
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+@N: BZ108 |SCO : Total number of LUTs added: 0.
+@W: MT548 :"/home/m110/m110063559/lab/Lab1_PCflow/design.fdc":4:0:4:0|Source for clock clk2 not found in netlist.
+
+
+@S0 |Clock Summary
+******************
+
+          Start             Requested     Requested     Clock        Clock     Clock
+Level     Clock             Frequency     Period        Type         Group     Load 
+------------------------------------------------------------------------------------
+0 -       clk1 (p:clk1)     22.2 MHz      45.000        declared     d1        8    
+====================================================================================
+
+
+
+@S0 |Clock Load Summary
+***********************
+
+          Clock     Source         Clock Pin               Non-clock Pin     Non-clock Pin
+Clock     Load      Pin            Seq Example             Seq Example       Comb Example 
+------------------------------------------------------------------------------------------
+clk1      8         clk1(port)     alu1.alu_out[7:0].C     -                 -            
+==========================================================================================
+
+
+Marking clock path (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 782MB peak: 782MB)
+
+
+Done marking clock path (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 782MB peak: 782MB)
+
+@N: BN225 |Writing default property annotation file /home/m110/m110063559/lab/Lab1_PCflow/UC_LED_DEMO/pre_partition/pp0/top.sap.
+
+Finished clock netlist generation (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 782MB peak: 782MB)
+
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Starting top-down timing model generation (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 782MB peak: 782MB)
+
+Adding Clock Info
+Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 782MB peak: 782MB
+Computing Async Clock Info
+Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 804MB peak: 804MB
+Saving Clock Database
+Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 812MB peak: 812MB
+
+Top-down timing model generation completed successfully (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 812MB peak: 812MB)
+
+@S |Design Info Report
+Found 0 RAM/ROM instances in the design
+Found 0 Big Multiplier(width >= 10) instances in the design
+Found 0 Black Box instances in the design
+Found 0 hierarchies with high no of latches (>10) in the design
+Refer to design_info.rpt for details
+
+####### End of Design Info Report #########
+
+
+Starting constraint checker (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 812MB peak: 812MB)
+
+Reading constraint file: /home/m110/m110063559/lab/Lab1_PCflow/top_ucdb/cclock_map.tcl
+Reading constraint file: /home/m110/m110063559/lab/Lab1_PCflow/design.fdc
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 812MB peak: 812MB)
+
+@W: MT548 :"/home/m110/m110063559/lab/Lab1_PCflow/design.fdc":4:0:4:0|Source for clock clk2 not found in netlist.
+@W: MF511 |Found issues with constraints. Please check constraint checker report "constraint_check.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 812MB peak: 812MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 812MB peak: 812MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:10s cputime
+# Wed Apr 19 00:19:12 2023
+
+###########################################################]
